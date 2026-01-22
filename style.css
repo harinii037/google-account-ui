@@ -1,0 +1,115 @@
+body{
+            background-color: rgb(243, 250, 255);
+            font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: x-large;
+        }
+
+        .google {
+            font-weight: 500;
+        }
+
+        nav {
+            /* border: 2px solid black; */
+            flex-direction: column;
+            display: flex;
+            width: 280px; 
+            height: 448px;
+            padding: 24px 0px 24px 20px;
+            gap: 10px;
+        }
+        
+        main {
+            display: flex;
+            /* height: 70vh;
+            width: 100vh; */
+        }
+
+        .items {
+            /* border: 2px solid brown; */
+            display: flex;
+            height: 56px;
+            width: fit-content;
+            border-radius: 40px;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            transition: all 0.15s ease;
+        }
+        
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon-img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+        span {
+            padding-left: 10px;
+        }
+
+        .items:hover {
+            background-color: rgba(194, 194, 194, 0.451);
+        }
+
+        .items:active{
+            background-color: white;
+        }
+        
+        .container {
+            /* border: 2px solid palevioletred; */
+            width: 100vw;
+            /* margin-left: px; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .item-con {
+            /* border: 2px solid blue; */
+            display: flex;
+            /* height: 80px; */
+            /* width: 100vw; */
+            align-items: center;
+
+
+        }
+        .profile-pic {
+            margin-top: 10vh;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+        .name {
+            font-size: 35px;
+            font-weight: 600;
+        }
+
+        .search {
+            height: 50px;
+            width: 600px;
+            border-radius: 25px;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .search:focus {
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.403);
+            /* border: none; */
+            outline: none;
+        }
+
